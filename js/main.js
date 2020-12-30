@@ -1,38 +1,20 @@
 //some variables
-var pwidth;
-var pheight;
-var backgroundCount = 0;
-var timer = 30000;
+let pwidth;
+let pheight;
+let backgroundCount = 0;
+const timer = 30000;
 
-//when the document has loaded
-$(document).ready(function(){
-	
-	//some preconfig, getting the browser container details also setting the fadingout the options
-	//also setting the timer.
-	//$(".topOver").fadeOut();	
-	//document.getElementById('timer').value = timer/1000;	
-	pwidth = $(window).width();
-	pheight = $(window).height();
-	//$('#allContent').mouseleave(showDetailsEnd);
-
-	//the timer
-	setInterval(changeImage(), timer);
-	
-	//when the window is resized, it will update the width and height
-	$(window).resize(function(){
-		pwidth = $(window).width(); 
-		pheight = $(window).height();
-	});
-});
+setInterval(changeImage, timer);
 
 //function for changing the image to the next one, including the new dimensions
 //also includes fadeIn and fadeOut animations
 function changeImage(){
-	$("#mainImage").fadeOut();
-	$('#mainImage').attr('src', 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount);
-	$('#mainImage').on('load', function(){
-		$("#mainImage").fadeIn();
-		//restartTimer();
+	document.getElementById("mainImage").style.opacity = 0;
+	pwidth = window.innerwidth;
+	pheight = window.innerheight;
+	document.getElementById("mainImage").src = "https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount";
+	document.getElementById("mainImage").addEventListener("load", function(){
+  		document.getElementById("mainImage").style.opacity = 1;
 	});
 	backgroundCount++;
 }
