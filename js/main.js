@@ -5,7 +5,7 @@ let backgroundCount = 0;
 const timer = 30000;
 
 document.getElementById("mainImage").addEventListener("load", function(){
-		setInterval(changeImage, timer));
+		setInterval(changeImage, timer);
 	});
 ;
 
