@@ -37,11 +37,14 @@ function changeImage()
 	$("#mainImage").fadeOut();
 	
 	//check if the blur checkbox is ticked
-	if (document.getElementById('blur').checked) {
-        $('#mainImage').attr('src', 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&blur&' + backgroundCount);
+	
+	/*if (document.getElementById('blur').checked) {
+        
+	$('#mainImage').attr('src', 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&blur&' + backgroundCount);
     } else {
-		$('#mainImage').attr('src', 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount);
-	}
+    */
+	$('#mainImage').attr('src', 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount);
+	// }
 	
 	//when image loaded, start the timer and show image
 	$('#mainImage').on('load', function(){
