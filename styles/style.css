@@ -5,9 +5,10 @@ background-color: #000;
 font-size: 13px;
 }
 
-#mainImage {
-	min-width:100%;
-	min-height:100%;	
+#allContent {
+	position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .background {
@@ -17,14 +18,24 @@ font-size: 13px;
     height: 100%;
     top: 0;
     left: 0;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
-#allContent {
-	position: relative;
-    width: 100%;
-    height: 100%;
+
+#mainImage {
+	min-width: 100%;
+	min-height: 100%;
+	margin: auto;
 }
 
+.refreshStyle {
+	min-width: 98%;
+	min-height: 98%;
+	width: 98%;
+	height: 98%;
+	border: 3px solid red;
+}
 
 #content {
     z-index: 99;
@@ -49,7 +60,7 @@ font-size: 13px;
 
 #options-list li {
 	margin-bottom: 7px;
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 }
 	
 
@@ -68,6 +79,6 @@ h3 {
 h4 {
 	text-align: left;
 	font-size: 1.3rem;
-	margin-bottom: 1.3rem;
+	margin-bottom: 1.5rem;
 }
 
