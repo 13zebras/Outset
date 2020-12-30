@@ -28,7 +28,7 @@ body{
 #mainImage {
 	min-width: 100%;
 	min-height: 100%;
-	margin: auto;
+	position: absolute;
 	opacity: 1.0;
 }
 
@@ -42,7 +42,7 @@ body{
 	top: 5%;
 	left: 5%;
 	*/
-	opacity: 0.7 !important;
+	outline: 1px solid red;
 }
 
 #content {
