@@ -14,7 +14,8 @@ function changeImage(){
 	document.getElementById("mainImage").style.opacity = 0;
 	pwidth = window.innerwidth;
 	pheight = window.innerheight;
-	const unsplashURL = 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount;
+	//https://loremflickr.com/1920/1080/city,night/all
+	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all';
 	document.getElementById("mainImage").src = unsplashURL;
 	document.getElementById("mainImage").addEventListener("load", function(){
   		document.getElementById("mainImage").style.opacity = 1;
