@@ -30,11 +30,13 @@ font-size: 13px;
 }
 
 .refreshStyle {
-	min-width: 98%;
-	min-height: 98%;
-	width: 98%;
-	height: 98%;
+	min-width: 90%;
+	min-height: 90%;
+	width: 90%;
+	height: 90%;
 	border: 3px solid red;
+	top: 5%;
+	left: 5%;
 }
 
 #content {
@@ -54,7 +56,7 @@ font-size: 13px;
 }
 
 #options { 
-	width: 70%;
+	width: 60%;
 	margin: auto
 }
 
