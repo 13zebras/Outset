@@ -1,7 +1,5 @@
 //some variables
-let pwidth;
-let pheight;
-let backgroundCount = 0;
+
 const timer = 30000;
 
 function slideShow(){
@@ -12,15 +10,14 @@ function slideShow(){
 //also includes fadeIn and fadeOut animations
 function changeImage(){
 	document.getElementById("mainImage").style.opacity = 0;
-	pwidth = window.innerwidth;
-	pheight = window.innerheight;
+	const pwidth = window.innerwidth;
+	const pheight = window.innerheight;
 	//https://loremflickr.com/1920/1080/city,night/all
 	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all';
 	document.getElementById("mainImage").src = unsplashURL;
 	document.getElementById("mainImage").addEventListener("load", function(){
   		document.getElementById("mainImage").style.opacity = 1;
 	});
-	backgroundCount++;
 }
 
 
