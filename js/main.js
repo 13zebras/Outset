@@ -12,10 +12,17 @@ function changeImage() {
 	//document.getElementById("mainImage").style.opacity = 0;
 	const pwidth = document.getElementById("allContent").clientWidth;
 	const pheight = document.getElementById("allContent").clientHeight;
+	if (document.getElementById("imageM-1")) {
+		document.getElementById("imageM-1").id = "imageM-2";
+		const imageE = document.getElementById("imageM-2");
+	} else {
+		document.getElementById("imageM-2").id = "imageM-1";
+		const imageE = document.getElementById("imageM-1");
+	}
 	//https://loremflickr.com/1920/1080/city,night/all
 	const timeStamp = new Date().getTime();
 	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
-	document.getElementById("mainImage").src = unsplashURL;
+	imageE.src = unsplashURL;
 	//document.getElementById("mainImage").addEventListener("load", function(){
   		//document.getElementById("mainImage").style.opacity = 1;
 	//});
