@@ -29,9 +29,9 @@ font-size: 13px;
 	margin: auto;
 }
 
-.refreshStyle {
-	min-width: 90%;
-	min-height: 90%;
+.background .refreshStyle {
+	min-width: 90% !important;
+	min-height: 90% !important;
 	width: 90%;
 	height: 90%;
 	border: 3px solid red;
