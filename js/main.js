@@ -10,8 +10,8 @@ function slideShow(){
 //also includes fadeIn and fadeOut animations
 function changeImage(){
 	document.getElementById("mainImage").style.opacity = 0;
-	const pwidth = window.innerwidth;
-	const pheight = window.innerheight;
+	const pwidth = document.getElementById("allContent").clientWidth;
+	const pheight = document.getElementById("allContent").clientHeight;
 	//https://loremflickr.com/1920/1080/city,night/all
 	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all';
 	document.getElementById("mainImage").src = unsplashURL;
