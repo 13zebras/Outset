@@ -2,7 +2,7 @@
 var pwidth;
 var pheight;
 var backgroundCount = 0;
-var timer = 20000;
+var timer = 30000;
 
 
 
@@ -11,11 +11,11 @@ $(document).ready(function(){
 	
 	//some preconfig, getting the browser container details also setting the fadingout the options
 	//also setting the timer.
-	$(".topOver").fadeOut();	
+	//$(".topOver").fadeOut();	
 	document.getElementById('timer').value = timer/1000;	
 	pwidth = $(window).width();
 	pheight = $(window).height();
-	$('#allContent').mouseleave(showDetailsEnd);
+	//$('#allContent').mouseleave(showDetailsEnd);
 
 	
 	
@@ -52,18 +52,21 @@ function changeImage()
 }
 
 //when hovering over an image show the details.
+/*
 function showDetails()
 {
 	$(".topOver").fadeIn();
 }
+*/
 
 
 //when not hovering over an image hide details.
+/*
 function showDetailsEnd()
 {	
 	$(".topOver").fadeOut();
 }
-
+*/
 //when the timer is changed, set the new timer variable to what the user has entered, no input validation though
 function setTimer()
 {	
