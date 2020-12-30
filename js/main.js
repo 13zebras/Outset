@@ -4,10 +4,9 @@ let pheight;
 let backgroundCount = 0;
 const timer = 30000;
 
-document.body.addEventListener("load", function(){
+function slideShow(){
 	setInterval(changeImage(), timer);
-});
-
+}
 
 //function for changing the image to the next one, including the new dimensions
 //also includes fadeIn and fadeOut animations
@@ -15,12 +14,17 @@ function changeImage(){
 	document.getElementById("mainImage").style.opacity = 0;
 	pwidth = window.innerwidth;
 	pheight = window.innerheight;
-	document.getElementById("mainImage").src = "'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount";
+	const unsplashURL = 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount;
+	document.getElementById("mainImage").src = unsplashURL;
 	document.getElementById("mainImage").addEventListener("load", function(){
   		document.getElementById("mainImage").style.opacity = 1;
 	});
 	backgroundCount++;
 }
+
+
+
+
 	//check if the blur checkbox is ticked
 	
 	/*if (document.getElementById('blur').checked) {
