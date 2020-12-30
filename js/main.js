@@ -1,31 +1,28 @@
-//some variables
-
+//one global constant
 const timer = 10000;
 
-function slideShow(){
+
+function slideShow() {
 	setInterval(changeImage, timer);
 }
 
-//function for changing the image to the next one, including the new dimensions
-//also includes fadeIn and fadeOut animations
+// function for changing the image to the next one, including the dimensions
+
 function changeImage() {
 	//document.getElementById("mainImage").style.opacity = 0;
 	const pwidth = document.getElementById("allContent").clientWidth;
 	const pheight = document.getElementById("allContent").clientHeight;
-	if (document.getElementById("imageM-1")) {
-		document.getElementById("imageM-1").id = "imageM-2";
-		let imageE = document.getElementById("imageM-2");
-	} else {
-		document.getElementById("imageM-2").id = "imageM-1";
-		let imageE = document.getElementById("imageM-1");
-	}
-	//https://loremflickr.com/1920/1080/city,night/all
+	let element = document.getElementById("mainImage");
 	const timeStamp = new Date().getTime();
 	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
-	imageE.src = unsplashURL;
-	//document.getElementById("mainImage").addEventListener("load", function(){
+	element.src = unsplashURL;
+	element.classList.toggle("refreshStyle");
+	
+	// The URL being called at LoremFlickr.com is:
+	// https://loremflickr.com/1920/1080/city,night/all
+	// Below will have something to do with fading in and out??
+	// document.getElementById("mainImage").addEventListener("load", function(){
   		//document.getElementById("mainImage").style.opacity = 1;
-	//});
 }
 
 
