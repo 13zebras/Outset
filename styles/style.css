@@ -41,8 +41,10 @@ background-color: #000;
 	font-family: 'Verdana', sans-serif;
 	width: 70%;
 	margin: auto;
-	padding: 50px 100px;
+	text-align: center;
+	padding: 80px 100px;
 	background: rgb(0,0,0);
 	background: radial-gradient(circle, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,0) 100%);
+	color: #eee;
 }
 
