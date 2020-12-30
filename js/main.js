@@ -5,9 +5,9 @@ let backgroundCount = 0;
 const timer = 30000;
 
 document.getElementById("mainImage").addEventListener("load", function(){
-		setInterval(changeImage, timer);
-	});
-;
+	setInterval(changeImage(), timer);
+});
+
 
 //function for changing the image to the next one, including the new dimensions
 //also includes fadeIn and fadeOut animations
