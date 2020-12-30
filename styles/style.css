@@ -2,39 +2,66 @@ body{
 margin:0;
 padding:0;
 background-color: #000;
+font-size: 13px;
 }
 
-#mainImage{
+#mainImage {
 	min-width:100%;
 	min-height:100%;
 	position:fixed;
 	
 }
 
-.background{
+.background {
 	z-index: 0;
+	position:absolute;
+	width: 100%;
 }
 
-#allContent{
+#allContent {
 	position:absolute;
 	width: 100%;
 }
 
 
-#content{
+#content {
 	z-index: 99;
 	font-family: 'Verdana', sans-serif;
 	width: 50%;
 	margin: auto;
 	
-	padding: 80px 100px;
+	padding: 60px 100px;
 	background: rgb(0,0,0);
 	background: radial-gradient(circle, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,0) 100%);
 	color: #eee;
 }
 
+#options { 
+	width: 55%;
+	margin: auto
+}
+
+#options-list li {
+	margin-bottom: 5px;
+	font-size: 1.2rem;
+}
+	
+
 h1 {
 	text-align: center;
 	font-size: 3rem;
+	margin-bottom: 3rem;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+h4 {
+	text-align: left;
+	font-size: 1.5rem;
+	margin-bottom: 1.2rem;
 }
 
