@@ -1,7 +1,7 @@
 body{
 margin:0;
 padding:0;
-background-color: #FFFFFF;
+background-color: #111;
 }
 
 #mainImage{
@@ -28,7 +28,8 @@ background-color: #FFFFFF;
 	z-index: 99;
 	position: fixed;
 	width:200px;
-	background-color: #FFF;
+	background-color: #000;
+	color: #eee;
 	opacity: 0.8;
 	bottom:0px;
 	
@@ -41,7 +42,7 @@ background-color: #FFFFFF;
 
 #content{
 	padding-left:8px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Verdana', sans-serif;
 }
 
 #loader{
