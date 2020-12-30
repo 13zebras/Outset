@@ -14,10 +14,10 @@ function changeImage() {
 	const pheight = document.getElementById("allContent").clientHeight;
 	if (document.getElementById("imageM-1")) {
 		document.getElementById("imageM-1").id = "imageM-2";
-		const imageE = document.getElementById("imageM-2");
+		let imageE = document.getElementById("imageM-2");
 	} else {
 		document.getElementById("imageM-2").id = "imageM-1";
-		const imageE = document.getElementById("imageM-1");
+		let imageE = document.getElementById("imageM-1");
 	}
 	//https://loremflickr.com/1920/1080/city,night/all
 	const timeStamp = new Date().getTime();
