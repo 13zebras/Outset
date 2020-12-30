@@ -15,7 +15,7 @@ function changeImage(){
 	document.getElementById("mainImage").style.opacity = 0;
 	pwidth = window.innerwidth;
 	pheight = window.innerheight;
-	document.getElementById("mainImage").src = "https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount";
+	document.getElementById("mainImage").src = "'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&' + backgroundCount";
 	document.getElementById("mainImage").addEventListener("load", function(){
   		document.getElementById("mainImage").style.opacity = 1;
 	});
