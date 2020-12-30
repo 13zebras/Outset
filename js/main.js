@@ -1,23 +1,24 @@
 //some variables
 
-const timer = 30000;
+const timer = 10000;
 
 function slideShow(){
-	setInterval(changeImage(), timer);
+	setInterval(changeImage, timer);
 }
 
 //function for changing the image to the next one, including the new dimensions
 //also includes fadeIn and fadeOut animations
-function changeImage(){
-	document.getElementById("mainImage").style.opacity = 0;
+function changeImage() {
+	//document.getElementById("mainImage").style.opacity = 0;
 	const pwidth = document.getElementById("allContent").clientWidth;
 	const pheight = document.getElementById("allContent").clientHeight;
 	//https://loremflickr.com/1920/1080/city,night/all
-	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all';
+	const timeStamp = new Date().getTime();
+	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
 	document.getElementById("mainImage").src = unsplashURL;
-	document.getElementById("mainImage").addEventListener("load", function(){
-  		document.getElementById("mainImage").style.opacity = 1;
-	});
+	//document.getElementById("mainImage").addEventListener("load", function(){
+  		//document.getElementById("mainImage").style.opacity = 1;
+	//});
 }
 
 
