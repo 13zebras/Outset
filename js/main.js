@@ -20,6 +20,7 @@ function changeImage() {
 	mainImg.addEventListener("load", function(){
   		mainImg.classList.replace("zero", "one");
 	});
+	return;
 }	
 	
 	// The URL being called at LoremFlickr.com is:
