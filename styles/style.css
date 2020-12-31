@@ -75,17 +75,17 @@ body{
 
 #mainImage.opacityZero {
 	opacity: 0;
-	transition; 8s;
+	transition: 8s;
 }
 
 #content {
     z-index: 99;
     position: fixed;
-	top: 5vh;
+	top: 0;
 	left: 0;
     font-family: 'lato', sans-serif;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background: rgb(0,0,0);
     background: radial-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0) 100%);
     color: #eee;
@@ -116,7 +116,7 @@ body{
 
 #options-list li {
 	margin-bottom: 0.8rem;
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	font-family: 'lato', sans-serif;
 	list-style-property: none;
 	text-align: left;
@@ -131,14 +131,14 @@ h1 {
 	text-align: center;
 	font-size: 6rem;
 	margin-bottom: 3.5rem;
-	margin-top: 2rem;
+	margin-top: 3rem;
 	font-family: 'cinzel', sans-serif;
 	font-weight: bold;
 }
 
 h3 {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 4rem;
 	margin-bottom: 4.5rem;
 	font-family: 'architects', sans-serif;
 }
