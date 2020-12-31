@@ -63,13 +63,11 @@ body{
 .one {
 	opacity: 1;
 	transition: 1s;
-	transition-delay: 1s;
 }
 
 .zero {
 	opacity: 0;
-	transition: 1s;
-	transition-delay: 0s;
+	transition: 0.5s;
 }
 
 #content {
