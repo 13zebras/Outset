@@ -63,7 +63,7 @@ body{
 .one {
 	opacity: 1;
 	transition: 1s;
-	transition-delay: 2s;
+	transition-delay: 0s;
 }
 
 .zero {
