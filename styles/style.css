@@ -81,14 +81,14 @@ body{
     width: 100%;
     height: 100vh;
     background: rgb(0,0,0);
-    background: radial-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0) 100%);
+    background: radial-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0) 100%);
     color: #eee;
 }
 
 h1 {
 	text-align: center;
 	font-size: 4.5rem;
-	margin-bottom: 2.4rem;
+	margin-bottom: 2.7rem;
 	margin-top: 2rem;
 	font-family: 'cinzel', sans-serif;
 	font-weight: bold;
@@ -97,37 +97,41 @@ h1 {
 h3 {
 	text-align: center;
 	font-size: 5rem;
-	margin: 1.3rem 0 2.4rem 0;
+	margin: 1.5rem 0 2.8rem 0;
 	font-family: 'architects', sans-serif;
 }
 
 h4 {
 	text-align: center;
 	font-size: 2.1rem;
-	margin-bottom: 2rem;
-	font-family: 'lato', sans-serif;
+	margin-bottom: 2.4rem;
+	font-family: 'cinzel', sans-serif;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
 
 #options { 
-	width: 750px;
+	width: 700px;
 	margin: 0 auto;
 }
 
 .options-list2 {
 	margin: 0;
-	width: 332px;
+	width: 320px;
 	display: inline-block;
+	padding-left: 25px;
 }
 
 .rtl {
-  direction: rtl;
+	direction: rtl;
+	padding-left: 0;
+	padding-right: 25px;
+	float: right;
 }
 
 .options-list2 li {
-	font-size: 1.6rem;
-	margin-bottom: 0.6rem;
+	font-size: 1.8rem;
+	margin-bottom: 0.7rem;
 	font-family: 'lato', sans-serif;
 }
 
