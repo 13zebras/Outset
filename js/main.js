@@ -10,13 +10,14 @@ function slideShow() {
 
 function changeImage() {
 	//document.getElementById("mainImage").style.opacity = 0;
+	let element = document.getElementById("mainImage");
+	element.classList.toggle("opacityZero");
 	const pwidth = document.getElementById("allContent").clientWidth;
 	const pheight = document.getElementById("allContent").clientHeight;
-	let element = document.getElementById("mainImage");
 	const timeStamp = new Date().getTime();
 	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
 	element.src = unsplashURL;
-	element.classList.toggle("refreshStyle");
+	element.classList.toggle("opacityZero");
 	
 	// The URL being called at LoremFlickr.com is:
 	// https://loremflickr.com/1920/1080/city,night/all
