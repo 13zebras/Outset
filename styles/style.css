@@ -1,3 +1,30 @@
+@font-face {
+	font-family: architects;
+	src: url(architectsdaughter-regular.ttf);
+}
+
+@font-face {
+	font-family: cinzel;
+	src: url(cinzel-regular.ttf);
+}
+
+@font-face {
+	font-family: cinzel;
+	src: url(cinzel-bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: lato;
+	src: url(lato-regular.ttf);
+}
+
+@font-face {
+	font-family: lato;
+	src: url(lato-bold.ttf);
+	font-weight: bold;
+}
+
 body{
 	margin:0;
 	padding:0;
@@ -32,6 +59,7 @@ body{
 	opacity: 1.0;
 	top: 0;
 	left: 0;
+	transition: 3s;
 }
 
 #mainImage.refreshStyle {
@@ -42,7 +70,6 @@ body{
 	left: 10%;
 	outline: 5px solid #800;
 	transition: 3s;
-	transition-delay: 3s;
 }
 
 #content {
@@ -54,7 +81,7 @@ body{
     width: 80%;
     height: 80vh;
     background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0) 100%);
     color: #eee;
 }
 
@@ -83,6 +110,7 @@ body{
 #options-list li {
 	margin-bottom: 7px;
 	font-size: 1.5rem;
+	font-family: 'lato', sans-serif;
 }
 	
 
@@ -91,17 +119,21 @@ h1 {
 	font-size: 6rem;
 	margin-bottom: 3.5rem;
 	margin-top: 2rem;
+	font-family: 'architects', sans-serif;
 }
 
 h3 {
 	text-align: center;
 	font-size: 3rem;
 	margin-bottom: 3.5rem;
+	font-family: 'cinzel', sans-serif;
 }
 
 h4 {
 	text-align: center;
 	font-size: 1.7rem;
 	margin-bottom: 1.5rem;
+	font-family: 'lato', sans-serif;
+	font-weight: bold;
 }
 
