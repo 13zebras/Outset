@@ -34,7 +34,7 @@ body{
 	left: 0;
 }
 
-.background .refreshStyle {
+#mainImage.refreshStyle {
 	
 	width: 80%;
 	height: 80%;
