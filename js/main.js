@@ -19,7 +19,7 @@ function changeImage() {
 	mainImg.src = unsplashURL;
 	mainImg.addEventListener("load", function(){
   		mainImg.classList.replace("zero", "one");
-	}	
+	});
 }	
 	
 	// The URL being called at LoremFlickr.com is:
