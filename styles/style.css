@@ -63,7 +63,7 @@ body{
 	transition-delay: 2s;
 }
 
-#mainImage.opacityZero {
+.zero {
 	opacity: 0;
 	transition: 8s;
 	transition-delay: 0s;
