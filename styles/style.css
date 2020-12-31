@@ -64,7 +64,20 @@ body{
 }
 
 #options-list {
-	margin: 0 10%;
+	margin: 0 20%;
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 999px) {
+	#options-list {
+		margin: 0 13%;
+	}
+}
+
+@media screen and (max-width: 899px) {
+	#options-list {
+		margin: 0 9%;
+	}
 }
 
 #options-list li {
@@ -77,6 +90,7 @@ h1 {
 	text-align: center;
 	font-size: 6rem;
 	margin-bottom: 3.5rem;
+	margin-top: 2rem;
 }
 
 h3 {
