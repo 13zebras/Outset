@@ -118,7 +118,7 @@ body{
 
 #options-list li {
 	margin-bottom: 0.6rem;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-family: 'lato', sans-serif;
 	list-style-type: none;
 	text-align: left;
@@ -131,8 +131,8 @@ body{
 
 h1 {
 	text-align: center;
-	font-size: 4rem;
-	margin-bottom: 2.5rem;
+	font-size: 3rem;
+	margin-bottom: 2rem;
 	margin-top: 2rem;
 	font-family: 'cinzel', sans-serif;
 	font-weight: bold;
@@ -140,17 +140,17 @@ h1 {
 
 h3 {
 	text-align: center;
-	font-size: 5rem;
-	margin: 2rem 0 2.5rem 0;
+	font-size: 4rem;
+	margin: 1.5rem 0 2.5rem 0;
 	font-family: 'architects', sans-serif;
 }
 
 h4 {
 	text-align: center;
-	font-size: 2.1rem;
-	margin-bottom: 1.5rem;
+	font-size: 2.25rem;
+	margin-bottom: 1.8rem;
 	font-family: 'lato', sans-serif;
 	font-weight: bold;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 
