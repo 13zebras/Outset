@@ -89,15 +89,15 @@ h1 {
 	text-align: center;
 	font-size: 4.5rem;
 	margin-bottom: 2.7rem;
-	margin-top: 2rem;
+	margin-top: 2.5rem;
 	font-family: 'architects', sans-serif;
 	font-weight: bold;
 }
 
 h3 {
 	text-align: center;
-	font-size: 5.5rem;
-	margin: 1.5rem 0 2.8rem 0;
+	font-size: 5.6rem;
+	margin: 1.5rem 0 3rem 0;
 	font-family: 'architects', sans-serif;
 }
 
@@ -112,7 +112,7 @@ h4 {
 
 #options { 
 	width: 700px;
-	margin: 0 auto;
+	margin: 1rem auto 0;
 }
 
 .options-list2 {
