@@ -58,7 +58,10 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 1.0;
+}
+
+.one {
+	opacity: 1;
 	transition: 8s;
 	transition-delay: 2s;
 }
