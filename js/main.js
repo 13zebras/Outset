@@ -10,28 +10,31 @@ function slideShow() {
 
 function changeImage() {
 	//document.getElementById("mainImage").style.opacity = 0;
-	let mainImg = document.getElementById("mainImage");
+	const mainImg = document.getElementById("mainImage");
 	mainImg.classList.replace("one", "zero");
 	const pwidth = document.getElementById("allContent").clientWidth;
 	const pheight = document.getElementById("allContent").clientHeight;
 	const timeStamp = new Date().getTime();
 	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
 	mainImg.src = unsplashURL;
-	mainImg.classList.replace("zero", "one");
+	mainImg.addEventListener("load", function(){
+  		mainImg.classList.replace("zero", "one");
+	}	
+}	
 	
 	// The URL being called at LoremFlickr.com is:
 	// https://loremflickr.com/1920/1080/city,night/all
 	// Below will have something to do with fading in and out??
 	// document.getElementById("mainImage").addEventListener("load", function(){
   		//document.getElementById("mainImage").style.opacity = 1;
-}
 
 
 
+/*
 
 	//check if the blur checkbox is ticked
 	
-	/*if (document.getElementById('blur').checked) {
+	if (document.getElementById('blur').checked) {
         
 		$('#mainImage').attr('src', 'https://unsplash.it/' + pwidth + '/' + pheight + '/?random&blur&' + backgroundCount);
     } else {
