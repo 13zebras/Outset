@@ -1,5 +1,5 @@
 //one global constant
-const timer = 20000;
+const timer = 30000;
 
 
 function slideShow() {
@@ -11,13 +11,13 @@ function slideShow() {
 function changeImage() {
 	//document.getElementById("mainImage").style.opacity = 0;
 	let element = document.getElementById("mainImage");
-	element.classList.toggle("zero");
+	element.classList.replace("one", "zero");
 	const pwidth = document.getElementById("allContent").clientWidth;
 	const pheight = document.getElementById("allContent").clientHeight;
 	const timeStamp = new Date().getTime();
 	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
 	element.src = unsplashURL;
-	element.classList.toggle("zero");
+	element.classList.replace("zero", "one");
 	
 	// The URL being called at LoremFlickr.com is:
 	// https://loremflickr.com/1920/1080/city,night/all
