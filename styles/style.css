@@ -47,7 +47,7 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-	background: #140819;
+	background: #16081d;
 	/*background: linear-gradient(90deg, rgba(80,38,110,0.9) 0%, rgba(153,9,9,0.9) 50%, rgba(180,106,19,0.9) 100%);*/
 }
 
@@ -63,22 +63,22 @@ body{
 	transition-delay: 2s;
 }
 
-#mainImage.refreshStyle {
-	/*
-	width: 80%;
-	height: 80%;
-	top: 10%;
-	left: 10%;
-	*/
-	opacity: 0.2;
-	transition: 8s;
-}
-
 #mainImage.opacityZero {
 	opacity: 0;
 	transition: 8s;
 	transition-delay: 0s;
 }
+
+/*
+#mainIm.refreshStyle {
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 10%;
+	opacity: 0.2;
+	transition: 8s;
+}
+*/
 
 #content {
     z-index: 99;
