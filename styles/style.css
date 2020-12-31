@@ -81,8 +81,8 @@ body{
     width: 100%;
     height: 100vh;
     background: rgb(0,0,0);
-    background: radial-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0) 100%);
-    color: #eee;
+    background: linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 20%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0.1) 100%);
+    color: #f4f4f6;
 }
 
 h1 {
@@ -90,22 +90,22 @@ h1 {
 	font-size: 4.5rem;
 	margin-bottom: 2.7rem;
 	margin-top: 2rem;
-	font-family: 'cinzel', sans-serif;
+	font-family: 'architects', sans-serif;
 	font-weight: bold;
 }
 
 h3 {
 	text-align: center;
-	font-size: 5rem;
+	font-size: 5.5rem;
 	margin: 1.5rem 0 2.8rem 0;
 	font-family: 'architects', sans-serif;
 }
 
 h4 {
 	text-align: center;
-	font-size: 2.1rem;
+	font-size: 2.2rem;
 	margin-bottom: 2.4rem;
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'lato', sans-serif;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
@@ -132,7 +132,7 @@ h4 {
 .options-list2 li {
 	font-size: 1.8rem;
 	margin-bottom: 0.7rem;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'lato', sans-serif;
 }
 
 .options-list {
