@@ -1,5 +1,5 @@
 //one global constant
-const timer = 30000;
+const timer = 20000;
 
 
 function slideShow() {
