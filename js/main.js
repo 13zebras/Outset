@@ -1,4 +1,4 @@
-const timer = 12000;
+const timer = 20000;
 
 function changeImage() {
 	console.log("changeImage function started");
@@ -13,7 +13,7 @@ function changeImage() {
 	mainImg.addEventListener("load", function(){
 		setTimeout(function(){
 			mainImg.style.opacity = 1;
-		}, 1500)
+		}, 1100)
 	});
 	setTimeout(changeImage, timer);
 	
