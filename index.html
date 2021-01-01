@@ -4,24 +4,11 @@
 	<link href="styles/style.css" rel="stylesheet" type="text/css" /> 
 	<script src="js/main.js" type="text/javascript"></script>
 	<style>
-		#imgLd {
-			display: none;
-			position: absolute;
-			top: 10px;
-			left: 10px;
-			background: #111;
-			color: #d00;
-			text-align: center;
-			height: 65px;
-			width: 300px;
-			font-size: 40px;
-			line-height: 45px;
-			padding-top: 10px;
-		}
+		#imgLd {display: none; position: absolute; top: 10px; left: 10px; background: #111; color: #d00; text-align: center; height: 65px; width: 300px; font-size: 40px; line-height: 45px; padding-top: 15px;}
 	</style>
 
 </head>
-<body>
+<body onload="changeImage()">
 
 	<div id="allContent">
 		<div class="background">
@@ -52,9 +39,5 @@
 		
 	</div>
 	<div id="imgLd">Image Loaded</div>
-	<script type="text/javascript">
-		document.body.addEventListener("load", changeImage);
-	
-	</script>
 </body>
 </html>
