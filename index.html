@@ -5,6 +5,7 @@
 	<script src="js/main.js" type="text/javascript"></script>
 	<style>
 		#imgLd {
+			display: none;
 			position: absolute;
 			top: 10px;
 			left: 10px;
@@ -25,7 +26,7 @@
 	<div id="allContent">
 		<div class="background">
 			
-			<img id="mainImage" src="styles/shades.gif"></img>
+			<img id="mainImage" onload="changeImage" src="styles/shades.gif"></img>
 			
 		</div>
 		<div id="content">
