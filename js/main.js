@@ -1,6 +1,6 @@
 const timer = 12000;
 
-//body.addEventListener("load", changeImage)
+document.body.addEventListener("load", changeImage)
 
 function changeImage() {
 	console.log("changeImage function started");
