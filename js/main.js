@@ -24,3 +24,24 @@ if (document.readyState == 'loading') {
     // DOM is ready!
     changeImage();
 }
+
+/* 
+Use https://source.unsplash.com/ instead of full API
+Call random photos from collections like so:
+	https://source.unsplash.com/collection/1656704/1600x900
+If I have 2-3 collections, and rotate them with teach cycle
+of the code above, then the URL will change and the image
+will update.
+
+Put collections in an array:
+	let collections = ["3721389", "76123395", "1656704"]
+*Note: I'm treating the numbers as a string since that's
+how it will be used, as part of a URL
+Unsplash collections to use:
+https://unsplash.com/collections/3721389/light-pollution
+Next one is mine:
+https://unsplash.com/collections/76123395/cities-at-night
+The last one has mostly photos oriented vertically. Need 
+to look at how to crop photos in code before use.
+https://unsplash.com/collections/1656704/city-at-night
+*/
