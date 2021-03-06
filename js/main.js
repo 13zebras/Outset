@@ -1,4 +1,4 @@
-const timer = 20000;
+const timer = 18000;
 
 function changeImage() {
 	console.log("changeImage function started");
