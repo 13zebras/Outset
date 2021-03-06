@@ -6,8 +6,9 @@ function changeImage() {
 	mainImg.style.opacity = 0;
 	const pwidth = document.getElementById("allContent").clientWidth;
 	const pheight = document.getElementById("allContent").clientHeight;
-	const timeStamp = new Date().getTime();
-	const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
+	//const timeStamp = new Date().getTime();
+	//const unsplashURL = 'https://loremflickr.com/' + pwidth + '/' + pheight + '/city,night/all?' + timeStamp;
+	const unsplashURL = 'https://source.unsplash.com/collection/76123395/' + pwidth + 'x' + pheight;
 	mainImg.src = unsplashURL;
 	mainImg.addEventListener("load", function(){
 		setTimeout(function(){
