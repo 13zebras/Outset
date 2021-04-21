@@ -111,6 +111,7 @@ h4 {
 #options { 
 	width: 840px;
 	margin: 6.5rem auto 0;
+	background: linear-gradient(to right, rgba(0,0,0,0.0.05) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0.05) 100%);
 }
 
 .chi {
