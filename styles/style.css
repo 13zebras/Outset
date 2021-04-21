@@ -118,12 +118,15 @@ h4 {
 
 .chi {
 	font-family: monospace;
-	font-size: 3.2rem;
+	font-size: 3.1rem;
 	text-align: center;
+	letter-spacing: 3px;
+	font-weight: bold;
 }
 
 .chi span {
 	font-size: 2.6rem;
+	letter-spacing: 10px;
 }
 
 .options-list2 {
