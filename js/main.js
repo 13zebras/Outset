@@ -1,4 +1,4 @@
-const timer = 18000;
+const timer = 28000;
 
 function changeImage() {
 	console.log("changeImage function started");
@@ -13,7 +13,7 @@ function changeImage() {
 	mainImg.addEventListener("load", function(){
 		setTimeout(function(){
 			mainImg.style.opacity = 1;
-		}, 1100)
+		}, 2000)
 	});
 	setTimeout(changeImage, timer);
 };
@@ -30,7 +30,7 @@ if (document.readyState == 'loading') {
 Use https://source.unsplash.com/ instead of full API
 Call random photos from collections like so:
 	https://source.unsplash.com/collection/1656704/1600x900
-If I have 2-3 collections, and rotate them with teach cycle
+If I have 2-3 collections, and rotate them with each cycle
 of the code above, then the URL will change and the image
 will update.
 
