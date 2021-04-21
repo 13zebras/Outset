@@ -84,12 +84,6 @@ h1 {
 	font-weight: bold;
 }
 
-.big {
-	font-size: 7rem;
-	margin-bottom: 5rem;
-	margin-top: 4rem;
-}
-
 h3 {
 	text-align: center;
 	font-size: 7rem;
@@ -165,5 +159,13 @@ h4 {
 	padding-top: 15px;
 }
 
+.focus {
+	font-size: 9rem;
+	margin-bottom: 5rem;
+	margin-top: 30%;
+}
 
+.focush3 {
+	font-size: 10rem;
+}
 
